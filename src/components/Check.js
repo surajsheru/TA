@@ -54,8 +54,8 @@ input.addEventListener("change",()=>{
             <h5>UPLOAD FILE 👉🏻👉🏻👉🏻 <input id="input" type="file"/></h5><br/>
             
             <MDBBtn onClick={click} color="primary"><strong>CLICK FOR ATTENDANCE</strong></MDBBtn><br/><br/>
-            <form class="form-inline justify-content-center">
-            <div class="card border-primary mb-3" style={{width:"35%",padding:"1%",fontSize:"17px",color:"#0000ff",fontFamily:"cursive",textAlign:"left"}}>
+            <form className="form-inline justify-content-center">
+            <div className="card border-primary mb-3" style={{width:"35%",padding:"1%",fontSize:"17px",color:"#0000ff",fontFamily:"cursive",textAlign:"left"}}>
             ► Make sure that the First sheet in your file contain all Students RollNumbers in the first column and Names in the Second column.
             <br/><br/>► Copy Names of Students from the Downloaded Sheet of Teams and Paste in new sheet of the same file which contains your First Sheet.
             <br/><br/> ► Save sheet as DATE in the Downloaded Sheet from Teams. 
@@ -64,7 +64,7 @@ input.addEventListener("change",()=>{
             </form>
                 <br/><br/>
           {showpre.map((item,i)=>(
-                    <div class="card">
+                    <div className="card">
                     <table><br/>
                         <th>
                        <h4 style={{color:"blue",fontFamily:"cursive"}}> Present</h4>
